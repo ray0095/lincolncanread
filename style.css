@@ -1,0 +1,25 @@
+:root {
+    --maincolor: #2a9df4;
+    --accentcolor: #ff781f;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    padding: 2rem;
+    align-items: center;
+}
+
+.word-item {
+    padding: 2rem;
+    background-color: var(--maincolor);
+    border-radius: 1rem;
+}
+
+.title {
+    font-weight: 800;
+    color: white;
+}
